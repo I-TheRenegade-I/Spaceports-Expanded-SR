@@ -1,0 +1,61 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 2.0
+#TheRenegade 10/05/17
+
+
+spriteTypes = {
+
+## Strategic Resources	
+	
+	spriteType = {
+		name = "GFX_spaceport_module_sr_dark_matter_factory"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_dark_matter_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_engos_refinery"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_engos_refinery.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_garanthium_forge"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_garanthium_forge.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_living_metal_armory"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_living_metal_armory.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_lythuric_gas_refinery"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_lythuric_gas_refinery.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_neutronium_forge"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_neutronium_forge.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_orillium_plant"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_orillium_plant.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_pitharan_refinery"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_pitharan_refinery.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_teldar_refinery"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_teldar_refinery.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_yurnatic_fabricator"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_yurnatic_fabricator.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_sr_zro_distillery"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_sr_zro_distillery.dds"
+	}
+	
+	
+	
+	
+}

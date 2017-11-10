@@ -1,0 +1,306 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 10/05/17
+
+
+#################### Strategic Resources Modules ####################
+
+#sm_strategic_resource_1:0 "Dark Matter Generation"
+strategic_resource_1 = {
+	icon = "GFX_spaceport_module_sr_dark_matter_factory"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_1" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_dark_matter = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}
+}
+
+#sm_strategic_resource_2:0 "Garanthium Ore Forge"
+strategic_resource_2 = {
+	icon = "GFX_spaceport_module_sr_garanthium_forge"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_2" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_garanthium = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}
+}
+
+#sm_strategic_resource_3:0 "Living Metal Fabrication"
+strategic_resource_3 = {
+	icon = "GFX_spaceport_module_sr_living_metal_armory"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_3" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_living_metal = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}
+}
+
+#sm_strategic_resource_4:0 "Lythuric Gas Synthesizer"
+strategic_resource_4 = {
+	icon = "GFX_spaceport_module_sr_lythuric_gas_refinery"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_4" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_lythuric = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}
+}
+
+#sm_strategic_resource_5:0 "Neutronium Ore Foundry"
+strategic_resource_5 = {
+	icon = "GFX_spaceport_module_sr_neutronium_forge"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_5" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_neutronium = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}
+}
+
+#sm_strategic_resource_6:0 "Orillium Ore Extraction"
+strategic_resource_6 = {
+	icon = "GFX_spaceport_module_sr_orillium_plant"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_6" }
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_orillium = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}	
+}
+
+#sm_strategic_resource_7:0 "Teldar Crystal Development"
+strategic_resource_7 = {
+	icon = "GFX_spaceport_module_sr_teldar_refinery"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_7" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_teldar = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}	
+}
+
+#sm_strategic_resource_8:0 "Yurantic Crystal Synthesizing Lab"
+strategic_resource_8 = {
+	icon = "GFX_spaceport_module_sr_yurnatic_fabricator"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_8" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_yuranic = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}	
+}
+
+#sm_strategic_resource_9:0 "Artifical Zro Distillery"
+strategic_resource_9 = {
+	icon = "GFX_spaceport_module_sr_zro_distillery"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_9" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_zro = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}	
+}
+
+#sm_strategic_resource_10:0 "Engos Vaporization Lab"
+strategic_resource_10 = {
+	icon = "GFX_spaceport_module_sr_engos_refinery"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_10" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_engos = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}	
+}
+
+#sm_strategic_resource_11:0 "Pitharan Dust Fertilizer Plant"
+strategic_resource_11 = {
+	icon = "GFX_spaceport_module_sr_pitharan_refinery"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_strategic_resource_11" } 
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 750
+		energy = 750
+	}	
+	
+	produced_resources = {
+		sr_pitharan = 1
+	}
+	
+	required_resources = {
+		energy = 150
+		minerals = 150
+		influence = 3
+	}
+	ai_weight = { 
+		weight = 0
+	}	
+}

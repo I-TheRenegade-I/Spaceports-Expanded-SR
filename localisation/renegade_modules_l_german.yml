@@ -1,0 +1,53 @@
+﻿#l_braz_por:
+#l_english:
+#l_french:
+l_german:
+#l_polish:
+#l_russian:
+#l_spanish:
+
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Spaceport Modules ####################/
+#######################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+#Translator: SonOfTheStars(SotS) 2017/10/11
+
+#Strategic Resource Modules
+sm_strategic_resource_1: "Dunkle Materie Generator"
+sm_strategic_resource_1_desc: "§LPhysikalische Durchbrüche erlauben die Erstellung und Handhabung eines Miniatur schwarzen Lochs und die Extraktion von dunkler Materie aus diesem\n §!§WStrategischer Ressourcenbonus§! \n§WPhysikforschung §!§G+20%§!"
+
+sm_strategic_resource_2: "Garanthium Schmelze"
+sm_strategic_resource_2_desc: "§LDurch einfangen passierender Asteroiden können wir nahezu unendliche Mengen Garanthium sammeln und verarbeiten\n §!§WStrategischer Ressourcenbonus§! \n§WSchiffshüllen Punkte §!§G+10%§!"
+
+sm_strategic_resource_3: "Organometall Fabrikation"
+sm_strategic_resource_3_desc: "§LDurch eine Reihe komplexer Prozesse ist es möglich ein nahezu perfektes Immitat lebenden Metalls herzustellen\n §!§WStrategischer Ressourcenbonus§! \n§WMegastruktur Baugeschwindigkeit §!§G+30%§! \n§WMonatliche Hüllenregeneration §!§G+2%§!"
+
+sm_strategic_resource_4: "Lythurgas Synthetsierer"
+sm_strategic_resource_4_desc: "§LDurch das komprimieren verschiedener Edelgase und Sauerstoff lässt sich nahezu authentisches Lythurgas synthetisieren\n §!§WStrategischer Ressourcenbonus§! \n§WSchildpunkte §!§G+20%§!"
+
+sm_strategic_resource_5: "Neutronium Abbaubasis"
+sm_strategic_resource_5_desc: "§LTheoretisch haben alle Sterne mehr oder weniger brauchbare Mengen Neutronium in ihrem Inneren. Es ist zwar gefählich aber wir können es definitiv aus ihnen gewinnen.\n §!§WStrategischer Ressourcenbonus§! \n§WPanzerung §!§G+20%§!"
+
+sm_strategic_resource_6: "Orillium Schmelze"
+sm_strategic_resource_6_desc: "§LDuch das Legieren verschiedener exotischer Metalle haben unsere Wissenschaftler einen Weg gefunden künstliches Orillium herzustellen\n §!§WStrategischer Ressourcenbonus§! \n§WExplosivwaffen Schaden §!§G+20%§!"
+
+sm_strategic_resource_7: "Teldarkristall Abscheider"
+sm_strategic_resource_7_desc: "§LWissenschaftler haben entdeckt, dass der Abfall aus den Betharian-Kraftwerken mit Hilfe komplexer Verfahren zu einem nahezu perfekten Teldarkristall Supplement verarbeitet werden kann\n §!§WStrategischer Ressourcenbonus§! \n§WKinetikwaffen Schaden §!§G+20%§!"
+
+sm_strategic_resource_8: "Yurantkristall Labor"
+sm_strategic_resource_8_desc: "§LUrsprünglich wuchsen diese Kristalle an einem hochradioaktiven Leck im Reaktorkern des Raumhafens, jetzt gedeihen sie noch besser in einer kontrollierten Laborumgebung\n §!§WStrategischer Ressourcenbonus§! \n§WEnergiewaffen Schaden §!§G+20%§!"
+
+sm_strategic_resource_9: "Kunst-Zro Destille"
+sm_strategic_resource_9_desc: "§LNachdem das Verbot dieser bewusstseinserwiternden Substanz aufgehoben wurde, da sie bei einigen Individuen das psionische Potenzial fördert, synthetisieren wir jetzt künstliches Zro und verteilen kontrollierte Dosen an unsere besten Offiziere\n §!§WStrategischer Ressourcenbonus§! \n§WÜberlichtgeschwindigkeit §!§G+50%§!\n§WSensorreichweite §!§G+100%§!"
+
+sm_strategic_resource_10: "Engos Raffinerie"
+sm_strategic_resource_10_desc: "§LAus den Tiefen von Gasgiganten heraufgepumptes, rohes Engos wird hier in Massenproduktion zu seiner brauchbaren Form raffiniert\n §!§WStrategischer Ressourcenbonus§! \n§WBewohnbarkeit §!§G+5%§!"
+
+sm_strategic_resource_11: "Pitharanstaub Düngerfabrik"
+sm_strategic_resource_11_desc: "§LLaut neuester Studien tritt Pitharanstaub sehr häufig auf und lässt sich am besten direkt orbital zu hochpotentem Dünger veraabeiten\n §!§WStrategischer Ressourcenbonus§! \n§WNahrungsleistung §!§G+10%§!"

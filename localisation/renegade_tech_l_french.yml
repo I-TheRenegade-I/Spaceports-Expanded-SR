@@ -1,0 +1,53 @@
+﻿#l_braz_por:
+#l_english:
+l_french:
+#l_german:
+#l_polish:
+#l_russian:
+#l_spanish:
+
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Technology  ##########################/
+#######################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+
+#Strategic Resource Module Tech
+tech_rse_strategic_resource_1: "Dark Matter Generation"
+tech_rse_strategic_resource_1_desc: "Unlocks the ability to create artifical Dark Matter"
+
+tech_rse_strategic_resource_2: "Garanthium Ore Forge"
+tech_rse_strategic_resource_2_desc: "Unlocks the ability to create artifical Garanthium Ore"
+
+tech_rse_strategic_resource_3: "Living Metal Fabrication"
+tech_rse_strategic_resource_3_desc: "Unlocks the ability to create artifical Living Metal"
+
+tech_rse_strategic_resource_4: "Lythuric Gas Synthesizer"
+tech_rse_strategic_resource_4_desc: "Unlocks the ability to create artifical Lythuric Gas"
+
+tech_rse_strategic_resource_5: "Neutronium Ore Foundry"
+tech_rse_strategic_resource_5_desc: "Unlocks the ability to create artifical Neutronium Ore"
+
+tech_rse_strategic_resource_6: "Orillium Ore Extraction"
+tech_rse_strategic_resource_6_desc: "Unlocks the ability to create artifical Orillium Ore"
+
+tech_rse_strategic_resource_7: "Teldar Crystal Development"
+tech_rse_strategic_resource_7_desc: "Unlocks the ability to create artifical Teldar Crystal"
+
+tech_rse_strategic_resource_8: "Yurantic Crystal Synthesizing Lab"
+tech_rse_strategic_resource_8_desc: "Unlocks the ability to create artifical Yurantic Crystal"
+
+tech_rse_strategic_resource_9: "Artifical Zro Distillery"
+tech_rse_strategic_resource_9_desc: "Unlocks the ability to create artifical Zro"
+
+tech_rse_strategic_resource_10: "Engos Vaporization Lab"
+tech_rse_strategic_resource_10_desc: "Unlocks the ability to create artifical Engos Vapor"
+
+tech_rse_strategic_resource_11: "Pitharan Dust Fertilizer Plant"
+tech_rse_strategic_resource_11_desc: "Unlocks the ability to create artifical Pitharan Dust"
+

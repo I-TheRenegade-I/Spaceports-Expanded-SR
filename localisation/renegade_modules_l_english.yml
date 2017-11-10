@@ -1,0 +1,51 @@
+﻿#l_braz_por:
+l_english:
+#l_french:
+#l_german:
+#l_polish:
+#l_russian:
+#l_spanish:
+
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Spaceport Modules ####################/
+#######################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+#Strategic Resource Modules
+sm_strategic_resource_1: "Dark Matter Generation"
+sm_strategic_resource_1_desc: "§LBreakthroughs in Physics has allowed the creation of microscopic black holes, enabling the extraction of Dark Matter§!\n§WStrategic Resource Bonus§!\n§WPhyics Research §!§G+20%§!"
+
+sm_strategic_resource_2: "Garanthium Ore Forge"
+sm_strategic_resource_2_desc: "§LBy capturing passing asteroids, you have been able to mine Garanthium Ore in near infinite quantities§!\n§WStrategic Resource Bonus§!\n§WShip hull points §!§G+10%§!"
+
+sm_strategic_resource_3: "Living Metal Fabrication"
+sm_strategic_resource_3_desc: "§LUtilizing technological advancements, your sciencetists have been able to artifically create Living Metal§!\n§WStrategic Resource Bonus§!\n§WMegastructure build speed §!§G+30%§!\n§WMonthly hull regeneration §!§G+2%§!"
+
+sm_strategic_resource_4: "Lythuric Gas Synthesizer"
+sm_strategic_resource_4_desc: "§LWhile compressing Oxygen for deep space missions, your sciencetists inadvertantly found a way to synthesize Lythuric Gas§!\n§WStrategic Resource Bonus§!\n§WShield hit points §!§G+20%§!"
+
+sm_strategic_resource_5: "Neutronium Ore Extraction"
+sm_strategic_resource_5_desc: "§LRsearch stations on distant stars reported that all stars have exotic materials near their core. Breakthroughs in deep core mining have enabled your empire to have abundant quantities of Neutronium Ore§!\n§WStrategic Resource Bonus§!\n§WArmor §!§G+20%§!"
+
+sm_strategic_resource_6: "Orillium Foundry"
+sm_strategic_resource_6_desc: "§LBy combining rare and exotic materials from across the galaxy your engineers have created Atrifcal Orillium§!\n§WStrategic Resource Bonus§!\n§WExplosive weapon damage §!§G+20%§!"
+
+sm_strategic_resource_7: "Teldar Crystal Development"
+sm_strategic_resource_7_desc: "§LA by-product of various power generation techniques across your empire has resulted in a new dense material that can only be rivaled by and compared to pure Teldar Crystals§!\n§WStrategic Resource Bonus§!\n§WKinetic weapon damage §!§G+20%§!"
+
+sm_strategic_resource_8: "Yurantic Crystal Synthesizing Lab"
+sm_strategic_resource_8_desc: "§LOriginally found growing near the highly radioactive core of your Spaceports power plant, these Synthetic Yurantic Crystal have now moved into being generated in strictly contrrolled labratory enviroments§!\n§WStrategic Resource Bonus§!\n§WEnergy weapon damage §!§G+20%§!"
+
+sm_strategic_resource_9: "Atrifical Zro Distillery"
+sm_strategic_resource_9_desc: "§LOriginally a banned substance in your empire, we have now discovered that Zro has highly enhanced the abilities of certain people in your empire, we have thus moved into full scale production and controlled dosages among your elite officers§!\n§WStrategic Resource Bonus§!\n§WFTL Speed §!§G+50%§!\n§WSensor Range §!§G+100%§!"
+
+sm_strategic_resource_10: "Engos Vaporization Lab"
+sm_strategic_resource_10_desc: "§LFound deep in the cores of gas giants, we have been able to vaporise seemingly normal gases and extract vast quantities of Engos gas§!\n§WStrategic Resource Bonus§!\n§WHabitability §!§G+5%§!"
+
+sm_strategic_resource_11: "Pitharan Dust Fertilizer Plant"
+sm_strategic_resource_11_desc: "§LRecent discoveries show that many stars eject Pitharan Dust, capturing and utilizing it has always been a problem, until now§!\n§WStrategic Resource Bonus§!\n§WFood output §!§G+10%§!"

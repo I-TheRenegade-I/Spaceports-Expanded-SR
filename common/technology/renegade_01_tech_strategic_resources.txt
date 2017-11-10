@@ -1,0 +1,421 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+@tier4cost1 = 7000
+@tier4cost2 = 8000
+@tier4cost3 = 9000
+@tier4cost4 = 10000
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+@tier4weight1 = 30
+
+#TOTAL TECHS IN THE FILE - 11
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+######################## STRATEGIC RESOURCE MODULES ########################
+
+#Dark Matter Generation
+tech_rse_strategic_resource_1 = {
+	cost = @tier3cost4
+	area = physics
+	tier = 4
+	is_rare = yes
+	category = { field_manipulation }
+	prerequisites = { "tech_mine_dark_matter" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#Garanthium Ore Forge 
+tech_rse_strategic_resource_2 = {
+	cost = @tier3cost4
+	area = engineering
+	tier = 4
+	is_rare = yes
+	category = { materials }	
+	prerequisites = { "tech_mine_garanthium" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#Living Metal Fabrication
+tech_rse_strategic_resource_3 = {
+	cost = @tier3cost4
+	area = engineering
+	tier = 4
+	is_rare = yes
+	category = { materials }
+	prerequisites = { "tech_mine_living_metal" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#Lythuric Gas Synthesizer
+tech_rse_strategic_resource_4 = {
+	cost = @tier3cost4
+	area = physics
+	tier = 4
+	is_rare = yes
+	category = { field_manipulation }
+	prerequisites = { "tech_lythuric_gas" }
+	weight = @tier4weight1
+
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+#Neutronium Ore Foundry 
+tech_rse_strategic_resource_5 = {
+	cost = @tier3cost4
+	area = physics
+	tier = 4
+	is_rare = yes
+	category = { materials }
+	prerequisites = { "tech_mine_neutronium" }
+	weight = @tier4weight1
+		
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#Orillium Ore Extraction
+tech_rse_strategic_resource_6 = {
+	cost = @tier3cost4
+	area = engineering
+	tier = 4
+	is_rare = yes
+	category = { materials }	
+	prerequisites = { "tech_mine_orillium" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}	
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#Teldar Crystal Development
+tech_rse_strategic_resource_7 = {
+	cost = @tier3cost4
+	area = engineering
+	tier = 4
+	is_rare = yes
+	category = { materials }	
+	prerequisites = { "tech_mine_teldar" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+#Yurantic Crystal Synthesizing Lab
+tech_rse_strategic_resource_8 = {
+	cost = @tier3cost4
+	area = engineering
+	tier = 4
+	is_rare = yes
+	category = { materials }	
+	prerequisites = { "tech_mine_yuranic" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+## Artifical Zro Distillery
+tech_rse_strategic_resource_9 = {
+	cost = @tier3cost4
+	area = physics
+	tier = 4
+	category = { psionics }
+	is_rare = yes	
+	prerequisites = { "tech_mine_zro" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.10
+			NOR = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_psionics"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_materials"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+			}
+		}
+	}
+	ai_weight = {
+		factor = 1 #very rare tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+}
+
+#Engos Vaporization Lab
+tech_rse_strategic_resource_10 = {
+	cost = @tier3cost4
+	area = society
+	tier = 4
+	is_rare = yes
+	category = { biology }	
+	prerequisites = { "tech_engos_vapor" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	ai_weight = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+#Pitharan Dust Fertilizer Plant
+tech_rse_strategic_resource_11 = {
+	cost = @tier3cost4
+	area = society
+	tier = 4
+	is_rare = yes
+	category = { biology }	
+	prerequisites = { "tech_pitharan_dust" }
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		factor = 1 #strategic resource
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	ai_weight = {
+		factor = 5 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
