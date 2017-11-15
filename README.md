@@ -1,3 +1,4 @@
-# Spaceports-Expanded
+# Spaceports-Expanded-SR
 
-A Stellaris mod for bigger and better Spacrports
+A Stellaris mod for bigger and better Spaceports
+	- Contains Strategic Resource Generation Modules
